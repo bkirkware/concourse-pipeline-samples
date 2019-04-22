@@ -18,7 +18,7 @@ resources:
     api: {{pws-api}}
     organization: {{pws-organization}}
     username: {{deploy-username}}
-    password: {{deploy-password}}
+    password: ((pws-password))
     skip_cert_check: true
     space: {{pws-space}}
 
